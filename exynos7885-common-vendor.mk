@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Resourcemanager.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGrallocWrapper.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcessConvertor.so \
+    vendor/samsung/exynos7885-common/proprietary/vendor/lib/lib_SamsungRec_07001.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_07001.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/lib_SoundAlive_SRC384_ver320.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC384_ver320.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libacryl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacryl.so \
