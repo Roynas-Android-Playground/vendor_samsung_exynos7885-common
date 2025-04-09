@@ -42,29 +42,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Core.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Resourcemanager.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGrallocWrapper.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcessConvertor.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/lib_SamsungRec_07001.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_07001.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/lib_SoundAlive_SRC384_ver320.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_SRC384_ver320.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/libacryl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacryl.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libaudio-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio-ril.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libaudio_soundtrigger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_soundtrigger.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/libepicoperator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libepicoperator.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosdisplay.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/libexynosgraphicbuffer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgraphicbuffer.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgscaler.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosscaler.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosutils.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosv4l2.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libgiantmscl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgiantmscl.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libprofileparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprofileparamstorage.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
@@ -79,21 +65,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsemnativecarrierfeature.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libspeakercalibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeakercalibration.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libteecl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteecl.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libuuid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuuid.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP9.Decoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.bridge@2.0.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0.so \
@@ -105,24 +80,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Core.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Resourcemanager.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGrallocWrapper.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libacryl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacryl.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libengmode_client.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libepicoperator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libepicoperator.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosdisplay.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libexynosgraphicbuffer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgraphicbuffer.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgscaler.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosscaler.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosutils.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosv4l2.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfloatingfeature.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libgiantmscl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgiantmscl.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_exynos.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libiwt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiwt.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so \
@@ -134,21 +95,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecril-client.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsemnativecarrierfeature.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libteecl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteecl.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libuuid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuuid.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libvkmanager_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkmanager_vendor.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/libyasalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libyasalgo.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.Encoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP8.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
-    vendor/samsung/exynos7885-common/proprietary/vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@2.0.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.bridge@2.0.so \
     vendor/samsung/exynos7885-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@2.0.so \
