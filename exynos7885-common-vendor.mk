@@ -131,3 +131,13 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libskeymaster4device
+
+PRODUCT_PACKAGES += \
+    libGLES_mali_libOpenCL_symlink32 \
+    libGLES_mali_libOpenCL.so_symlink32 \
+    libGLES_mali_libOpenCL.so.1_symlink32 \
+    libGLES_mali_vulkan.exynos7885_symlink32 \
+    libGLES_mali_libOpenCL_symlink64 \
+    libGLES_mali_libOpenCL.so_symlink64 \
+    libGLES_mali_libOpenCL.so.1_symlink64 \
+    libGLES_mali_vulkan.exynos7885_symlink64
