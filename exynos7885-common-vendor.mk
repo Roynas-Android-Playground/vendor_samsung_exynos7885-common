@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos7885-common/proprietary/vendor/etc/gnss/gps.debug.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.debug.cfg \
     vendor/samsung/exynos7885-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/samsung/exynos7885-common/proprietary/vendor/etc/init/init.baseband.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.baseband.rc \
+    vendor/samsung/exynos7885-common/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
     vendor/samsung/exynos7885-common/proprietary/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
     vendor/samsung/exynos7885-common/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
     vendor/samsung/exynos7885-common/proprietary/vendor/etc/init/teegris_v3.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris_v3.rc \
