@@ -4,6 +4,9 @@
 
 soong_namespace {
 	imports: [
+                "device/samsung/exynos7885-common",
+                "hardware/samsung_slsi-linaro/exynos",
+                "hardware/samsung_slsi-linaro/graphics",
 	],
 }
 
@@ -43,48 +46,6 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libfloatingfeature.so"],
 			shared_libs: ["libexpat", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libgiantmscl",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libgiantmscl.so"],
-			shared_libs: ["liblog", "libutils", "libcutils", "libion_exynos", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libgiantmscl.so"],
-			shared_libs: ["liblog", "libutils", "libcutils", "libion_exynos", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libhwjpeg",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libhwjpeg.so"],
-			shared_libs: ["liblog", "libutils", "libcutils", "libion_exynos", "libgiantmscl", "libacryl", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libhwjpeg.so"],
-			shared_libs: ["liblog", "libutils", "libcutils", "libion_exynos", "libgiantmscl", "libacryl", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",

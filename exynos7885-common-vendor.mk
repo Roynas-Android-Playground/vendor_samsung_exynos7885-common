@@ -56,8 +56,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libGLES_mali \
     libfloatingfeature \
-    libgiantmscl \
-    libhwjpeg \
     libril-samsung \
     libsecnativefeature \
     libsecril-client \
