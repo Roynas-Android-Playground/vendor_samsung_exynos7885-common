@@ -62,7 +62,7 @@ PRODUCT_PACKAGES += \
     libsemnativecarrierfeature \
     libsensorlistener \
     libteecl \
-    libuuid \
+    libuuid_vendor \
     vendor.samsung.hardware.radio.bridge@2.0 \
     libSamsungPostProcessConvertor \
     lib_SamsungRec_07001 \
