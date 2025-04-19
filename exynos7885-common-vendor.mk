@@ -97,7 +97,6 @@ PRODUCT_PACKAGES += \
     cbd \
     android.hardware.drm@1.3-service.widevine \
     rild \
-    main_abox \
     tzdaemon \
     tzts_daemon
 
