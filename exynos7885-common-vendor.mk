@@ -92,6 +92,7 @@ PRODUCT_PACKAGES += \
     libyasalgo \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.radio.channel@2.0 \
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
     cbd \
     android.hardware.drm@1.3-service.widevine \
     rild \
