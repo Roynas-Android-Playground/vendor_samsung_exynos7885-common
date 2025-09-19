@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos7885-common/proprietary/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
     vendor/samsung/exynos7885-common/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
     vendor/samsung/exynos7885-common/proprietary/vendor/etc/init/teegris_v3.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris_v3.rc \
+    vendor/samsung/exynos7885-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc \
     vendor/samsung/exynos7885-common/proprietary/vendor/etc/init/wifi_sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_sec.rc \
     vendor/samsung/exynos7885-common/proprietary/vendor/etc/init/wifi_slsi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_slsi.rc \
     vendor/samsung/exynos7885-common/proprietary/vendor/etc/yas_set.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/yas_set.cfg \
@@ -80,6 +81,8 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libwvdrmengine \
     libaudioeffectoffload \
+    android.hardware.gnss@2.1-impl \
+    vendor.samsung.hardware.gnss@2.0-impl \
     libengmode_client \
     libiwt \
     libkeymaster_helper \
@@ -87,13 +90,16 @@ PRODUCT_PACKAGES += \
     libsec-ril \
     libskeymaster4device \
     libvkmanager_vendor \
+    libwrappergps \
     libyasalgo \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.radio.channel@2.0 \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     cbd \
     android.hardware.drm@1.3-service.widevine \
+    gpsd \
     rild \
+    vendor.samsung.hardware.gnss@2.0-service \
     tzdaemon \
     tzts_daemon
 
