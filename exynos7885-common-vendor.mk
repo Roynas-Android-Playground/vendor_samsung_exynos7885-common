@@ -58,7 +58,7 @@ PRODUCT_PACKAGES += \
     libsecnativefeature \
     libsecril-client \
     libsensorlistener \
-    libteecl_exynos7885 \
+    libteecl \
     libuuid_vendor \
     android.hardware.camera.provider@2.4-legacy \
     android.hardware.camera.provider@2.5-legacy \

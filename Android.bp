@@ -220,8 +220,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libteecl_exynos7885",
-    stem: "libteecl",
+    name: "libteecl",
     owner: "samsung",
     strip: {
         none: true,
@@ -785,7 +784,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdl",
-                "libteecl_exynos7885",
+                "libteecl",
                 "libc",
                 "libm",
                 "liblog",
@@ -1232,7 +1231,7 @@ cc_prebuilt_library_shared {
                 "libkeymaster4_1support",
                 "libhidlbase",
                 "libcrypto-v33",
-                "libteecl_exynos7885",
+                "libteecl",
                 "libc++",
                 "libc",
                 "libm",
@@ -1782,7 +1781,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/tzdaemon",
             ],
             shared_libs: [
-                "libteecl_exynos7885",
+                "libteecl",
                 "libuuid_vendor",
                 "liblog",
                 "libc",
@@ -1807,7 +1806,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/tzts_daemon",
             ],
             shared_libs: [
-                "libteecl_exynos7885",
+                "libteecl",
                 "libuuid_vendor",
                 "libiwt",
                 "liblog",
